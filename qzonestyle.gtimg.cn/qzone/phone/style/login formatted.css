@@ -1,0 +1,86 @@
+body {
+	position:relative
+}
+.banner {
+	position:relative;
+	display:block;
+	padding-top:15.62%;
+	-webkit-background-size:cover;
+	background-size:cover;
+	background-color:#d7d7d7;
+	background-repeat:no-repeat;
+	background-position:0 0
+}
+.dl-guide {
+	text-align:center;
+	position:absolute;
+	top:0;
+	bottom:0;
+	width:100%;
+	background-color:#eee;
+	z-index:10
+}
+.dl-guide header {
+	height:245px;
+	background-color:#1f75cc;
+	position:relative;
+	background-image:url(img/welcome-cover.jpg?max_age=19830212&d=20160519113742),url(img/welcome-sticker.png?max_age=19830212&d=20160519113742);
+	-webkit-background-size:160px 138px,246px 103px;
+	background-position:50% 100%;
+	background-repeat:no-repeat;
+	color:#fff
+}
+.dl-guide header.wifi {
+	background-image:url(img/welcome-cover.jpg?max_age=19830212&d=20160519113742),url(img/welcome-sticker.png?max_age=19830212&d=20160519113742),url(img/welcome-bg.jpg?max_age=19830212&d=20160519113742);
+	-webkit-background-size:160px 138px,246px 103px,cover;
+	background-position:50% 100%,50% 100%,50%
+}
+.dl-guide h1 {
+	font-size:20px;
+	padding:15px 0 13px
+}
+.dl-guide h1:before {
+	content:'';
+	display:inline-block;
+	width:26px;
+	height:26px;
+	background-image:url(sprite/login-chg160316150413.png?max_age=19830212&d=20160519113742);
+	background-position:0 0;
+	margin-right:5px;
+	vertical-align:middle;
+	margin-top:-4px
+}
+.dl-guide .intro {
+	line-height:1.6
+}
+.dl-guide .action {
+	padding:15px 0
+}
+.dl-guide .item {
+	display:block;
+	margin:0 auto;
+	width:240px;
+	line-height:38px;
+	font-size:16px;
+	margin-top:15px;
+	background-color:#f8f8f8;
+	border:1px solid #b7b7b7;
+	-webkit-border-radius:1px;
+	-moz-border-radius:1px;
+	border-radius:1px
+}
+.dl-guide .item.blue {
+	background-color:#0264e9;
+	border-color:#0264e9;
+	color:#fff;
+	margin-top:0
+}
+@media only screen and (-webkit-min-device-pixel-ratio:1.25),only screen and (min-resolution:120dpi),only screen and (min-resolution:1.25dppx) {
+	.dl-guide h1:before {
+	background-image:url(sprite/login-chg160316150413@2x.png?max_age=19830212&d=20160519113742);
+	background-size:26px 26px;
+	background-position:0 0
+}
+}#CssGaga {
+	content:"160519113742,chg,334"
+}

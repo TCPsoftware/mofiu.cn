@@ -1,0 +1,1 @@
+top.location.replace('http://img.sogoucdn.com/app/a/100520146/E6364F15BFF87B196E3713C15B7E42CD')
